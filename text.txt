@@ -1,0 +1,79 @@
+```html
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacifico Azul Mariscos | Apple Valley Seafood</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@400;700&display=swap');
+        body { font-family: 'Montserrat', sans-serif; }
+        h1, h2, h3 { font-family: 'Oswald', sans-serif; }
+    </style>
+</head>
+<body class="bg-blue-50 text-gray-900">
+
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white py-16 px-6 text-center shadow-lg">
+        <h1 class="text-5xl md:text-6xl uppercase tracking-tighter">Pacifico Azul Mariscos</h1>
+        <p class="text-xl mt-4 opacity-90 tracking-wide">Authentic Mobile Seafood Experience</p>
+        <div class="mt-8 flex justify-center items-center space-x-2">
+            <span class="text-yellow-400 text-2xl">★★★★★</span>
+            <span class="text-lg font-bold">4.6 (11 Reviews)</span>
+        </div>
+    </header>
+
+    <!-- Quick Action Buttons -->
+    <div class="grid grid-cols-2 gap-4 px-6 -mt-8 max-w-2xl mx-auto z-10 relative">
+        <a href="tel:+17602201887" class="bg-yellow-400 text-blue-900 p-4 text-center shadow-xl border-b-4 border-yellow-600 font-bold uppercase hover:bg-yellow-500 transition active:scale-95 rounded-sm">
+            Call Now
+        </a>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=13730+Apple+Valley+Rd+Apple+Valley+CA+92307" target="_blank" rel="noopener noreferrer" class="bg-white text-blue-900 p-4 text-center shadow-xl border-b-4 border-blue-600 font-bold uppercase hover:bg-blue-50 transition active:scale-95 rounded-sm">
+            Directions
+        </a>
+    </div>
+
+    <main class="py-20 px-6 max-w-4xl mx-auto space-y-16">
+        <!-- Overview -->
+        <section class="text-center">
+            <h2 class="text-3xl uppercase mb-6 text-blue-900">Freshness on Wheels</h2>
+            <p class="text-lg leading-relaxed text-gray-700 max-w-2xl mx-auto">
+                We bring the ocean to you. Located at <strong>13730 Apple Valley Rd</strong>, we specialize in high-quality fish ceviche and authentic mariscos that consistently outperform local sit-down restaurants.
+            </p>
+        </section>
+
+        <!-- Customer Reviews -->
+        <section>
+            <h2 class="text-3xl uppercase mb-8 text-center text-blue-900">What Our Customers Say</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 shadow-md border-l-4 border-yellow-400">
+                    <p class="italic text-gray-600">"Fish ceviche is excellent and the owner goes above and beyond."</p>
+                </div>
+                <div class="bg-white p-6 shadow-md border-l-4 border-yellow-400">
+                    <p class="italic text-gray-600">"Best quality food in the area, even better than the restaurants."</p>
+                </div>
+                <div class="bg-white p-6 shadow-md border-l-4 border-yellow-400">
+                    <p class="italic text-gray-600">"Just finished my dinner from here and enjoyed everything."</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hours and Location -->
+        <section class="bg-blue-900 text-white p-8 rounded-lg text-center shadow-2xl">
+            <h3 class="text-2xl uppercase mb-2">Visit Us</h3>
+            <p class="text-lg">13730 Apple Valley Rd, Apple Valley, CA 92307</p>
+            <div class="mt-4 inline-block bg-blue-800 px-6 py-2 rounded-full font-bold">
+                Open Daily until 12 AM
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-10 text-center text-gray-500 text-sm border-t border-gray-200">
+        &copy; 2026 Pacifico Azul Mariscos. All rights reserved.
+    </footer>
+
+</body>
+</html>
+
+```
